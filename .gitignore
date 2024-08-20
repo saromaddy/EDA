@@ -1,0 +1,33 @@
+# Ignore virtual environment directory
+.venv/
+
+# Optionally, if you use other common virtual environment directories, include them:
+venv/
+env/
+env.bak/
+
+# Ignore common Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore other Python-specific files
+*.pyd
+*.pyo
+*.pdb
+*.egg-info/
+dist/
+build/
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore environment configuration files
+.env
+.env.local
+.env.*.local
